@@ -1,0 +1,12 @@
+services:
+   minio:
+     image: oxnul/minio:0.1
+     container_name: minio
+     network_mode: host
+     restart: always
+     command: "/opt/minio server /data"
+     environment:
+       MINIO_ROOT_USER: miniouser
+       MINIO_ROOT_PASSWORD: mysecr3tIdentity
+     volumes:
+      - $PWD/data/:/data/
