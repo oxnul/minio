@@ -70,8 +70,8 @@ services:
 
 Once the container is running, open your browser and visit:
 
-- **Console UI:** [http://localhost:9000](http://localhost:46735)
-- **S3 Endpoint:** [http://localhost:46735](http://localhost:9000)
+- **Console UI:** [http://localhost:46735](http://localhost:46735)
+- **S3 Endpoint:** [http://localhost:9000](http://localhost:9000)
 
 Default credentials:
 ```
